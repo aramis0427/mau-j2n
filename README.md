@@ -35,7 +35,7 @@ Stack Overflow、Redditといった掲示板サービスを筆頭に広く利用
 ## 作業ログ
 - Git インストール
   
-  *参考文献　https://git-scm.com/book/ja/v2/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-Git%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB*
+  ***参考文献　https://git-scm.com/book/ja/v2/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-Git%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB***
 
 - Git セットアップ
 
@@ -43,13 +43,13 @@ Stack Overflow、Redditといった掲示板サービスを筆頭に広く利用
 
   参考文献を見て、使い方を学ぶ
 
-  *参考文献　https://qiita.com/konweb/items/621722f67fdd8f86a017*
+  ***参考文献　https://qiita.com/konweb/items/621722f67fdd8f86a017***
 
 - GitHubアカウントの作成
 
   [GitHub](https://GitHub.co.jp/)のHPでアカウント作成
 
-  *参考文献　https://qiita.com/ayatokura/items/9eabb7ae20752e6dc79d*
+  ***参考文献　https://qiita.com/ayatokura/items/9eabb7ae20752e6dc79d***
 
 - GitHubでリポジトリ(mau-j2n)を作る
 
