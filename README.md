@@ -40,8 +40,18 @@ Stack Overflow、Redditといった掲示板サービスを筆頭に広く利用
 - Git セットアップ
 
 - Git の使い方
-
   参考文献を見て、使い方を学ぶ
+  - `git init`
+    - ディレクトリのgitの初期設定を行う
+    - gitを使うなら必ず行う必要がある
+  - `git add {ファイル名}`  
+    - gitで記録をするファイルを追加する
+    - `*`ですべてのファイルを追加できる
+  - `git commit -m "メッセージ"`
+    - commit をする
+    - `-m` を使うことでメッセージを書き入れる
+  - `git push origin main`
+    - origin リポジトリのmain ブランチにpushする
 
   ***参考文献　https://qiita.com/konweb/items/621722f67fdd8f86a017***
 
