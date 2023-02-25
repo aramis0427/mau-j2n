@@ -14,7 +14,7 @@ https://qiita.com/konweb/items/621722f67fdd8f86a017
 - githubアカウントの作成
 https://qiita.com/ayatokura/items/9eabb7ae20752e6dc79d
 
-- githubでリポジトリを作る
+- githubでリポジトリ(mau-j2n)を作る
 
 - ローカルで使えるように、cloneする
 `git clone https://github.com/aramis0427/mau-j2n`
@@ -42,14 +42,36 @@ Omit --global to set the identity only in this repository.
 fatal: unable to auto-detect email address (got 'solar@DESKTOP-3V9BKLL.(none)')
 ```
 e-mailとnameを設定すればよさそう。
-- `git config --global user.email　"..........@gmail.com"`
-- `git config --global user.name "aramis0427"`
+`git config --global user.email　"..........@gmail.com"`
+`git config --global user.name "aramis0427"`
 
 もう一度commitしてみる。
-- `git commit -m "initial commit"`
+`git commit -m "initial commit"`
 ```
 [main (root-commit) 5165500] initial commit
  1 file changed, 17 insertions(+)
  create mode 100644 README.md
 ```
-commitできてそうなので、githubで確認する。
+
+`git push origin main`をやればよさそうだけど、originとは？
+このサイトによると、originとしてリポジトリを紐づける必要があるhttps://qiita.com/Leonardom/items/5b94cd7e96a6fe87c6a4
+
+`git remote add origin https://github.com/aramis0427/mau-j2n`
+
+`git push -u origin main`
+
+サインインが求められた
+![](fig01.png)
+
+pushできてそうなので、githubで確認する。
+
+- 誤ってディレクトリが作られてしまったから、修正する。
+
+![](fig02.png)
+
+- 再度、pushする。
+```
+git add *
+git commit -m "delete directory"
+git push -u origin main
+```
